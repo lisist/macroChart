@@ -1,50 +1,50 @@
 index,list,name
-173, 173, U.S. ISM Manufacturing Purchasing Managers Index (PMI)
-8, 8, U.S. Average Hourly Earnings MoM
-38, 38, U.S. Chicago Purchasing Managers Index (PMI)
-59, 59, U.S. Core durable Goods Orders MoM
-130, 130, Germany Factory Orders MoM
-132, 132, Germany Ifo Business Climate Index
-138, 138, Germany Retail Sales MoM
-168, 168, Fed Interest Rate Decision
-170, 170, U.K. Interest Rate Decision
-174, 174, U.S. ISM Manufacturing Prices
-218, 218, U.S. NAHB Housing Market Index
-227, 227, U.S. Nonfarm Payrolls
-232, 232, U.S. Pending Home sales
-286, 286, U.S. Trade Balance (USD)
-294, 294, US Initial Jobless Claims
-300, 300, U.S. Unemployment Rate
-323, 323, U.S. NY Empire State Manufacturing Index
-379, 379, U.S. Average Weekly Hours
-460, 460, China Fixed Asset Investment YoY
-465, 465, China Retail Sales YoY
-466, 466, China Trade Balance (USD)
-470, 470, South Korea Trade Balance (KRW)
-537, 537, U.S. NFIB Small Business Optimism
-594, 594, China Manufacturing Purchasing Managers Index (PMI)
-733, 733, U.S. Consumer Price Index (CPI) YoY
-736, 736, U.S. Core Consumer Price Index (CPI) YoY
-740, 740, Germany Retail Sales YoY
-752, 752, China House Prices YoY
-784, 784, South Korea FX Reserves (USD)
-785, 785, South Korea Nikkei Manufacturing Purchasing Managers Index (PMI)
-831, 831, China Non-Manufacturing Purchasing Managers Index (PMI)
-890, 890, U.S. Real Earnings MoM
-1081, 1081, China Outstanding Loan Growth YoY
-1049, 1049, U.S. ISM Non-Manufacturing Prices
-1057, 1057, U.S. JOLTs Job Openings
-1483, 1483, U.S. ISM Manufacturing New Orders Index
-1581, 1581, U.S. Participation Rate
-1777, 1777, U.S. Average Hourly Earnings YoY
-1968, 1968, U.S. Leading Index MoM
-q.usulcy, ulcyus_m_d, U.S. Unit Labor Costs YoY
-q.usulcq, ulcqus_m_d, U.S. Unit Labor Costs QoQ
-q.usahe, avheus_m_d, U.S. Average Hourly Earnings
-q.crb, crb_index, Commodity Bureau Index
-f.fdasset, WALCL, U.S. Fed Total Asset
-f.uscpioer, CUSR0000SEHC, U.S. CPI Owners' equivalent rent of residences in U.S. city Average
-f.uscpirent, CUSR0000SEHA, U.S. CPI Rent of Primary Residences in U.S. City Average
-f.uslei, USALOLITONOSTSAM, Leading indicators CLI normalized for U.S.
-m.spxfper, 2577, sp-500-pe-ratio-price-to-earnings-chart
-m.spxfeps, 1324, s-p-500-earnings-history
+173,173,U.S. ISM Manufacturing Purchasing Managers Index (PMI)
+8,8,U.S. Average Hourly Earnings MoM
+38,38,U.S. Chicago Purchasing Managers Index (PMI)
+59,59,U.S. Core durable Goods Orders MoM
+130,130,Germany Factory Orders MoM
+132,132,Germany Ifo Business Climate Index
+138,138,Germany Retail Sales MoM
+168,168,Fed Interest Rate Decision
+170,170,U.K. Interest Rate Decision
+174,174,U.S. ISM Manufacturing Prices
+218,218,U.S. NAHB Housing Market Index
+227,227,U.S. Nonfarm Payrolls
+232,232,U.S. Pending Home sales
+286,286,U.S. Trade Balance (USD)
+294,294,US Initial Jobless Claims
+300,300,U.S. Unemployment Rate
+323,323,U.S. NY Empire State Manufacturing Index
+379,379,U.S. Average Weekly Hours
+460,460,China Fixed Asset Investment YoY
+465,465,China Retail Sales YoY
+466,466,China Trade Balance (USD)
+470,470,South Korea Trade Balance (KRW)
+537,537,U.S. NFIB Small Business Optimism
+594,594,China Manufacturing Purchasing Managers Index (PMI)
+733,733,U.S. Consumer Price Index (CPI) YoY
+736,736,U.S. Core Consumer Price Index (CPI) YoY
+740,740,Germany Retail Sales YoY
+752,752,China House Prices YoY
+784,784,South Korea FX Reserves (USD)
+785,785,South Korea Nikkei Manufacturing Purchasing Managers Index (PMI)
+831,831,China Non-Manufacturing Purchasing Managers Index (PMI)
+890,890,U.S. Real Earnings MoM
+1081,1081,China Outstanding Loan Growth YoY
+1049,1049,U.S. ISM Non-Manufacturing Prices
+1057,1057,U.S. JOLTs Job Openings
+1483,1483,U.S. ISM Manufacturing New Orders Index
+1581,1581,U.S. Participation Rate
+1777,1777,U.S. Average Hourly Earnings YoY
+1968,1968,U.S. Leading Index MoM
+q.usulcy,ulcyus_m_d,U.S. Unit Labor Costs YoY
+q.usulcq,ulcqus_m_d,U.S. Unit Labor Costs QoQ
+q.usahe,avheus_m_d,U.S. Average Hourly Earnings
+q.crb,crb_index,Commodity Bureau Index
+f.fdasset,WALCL,U.S. Fed Total Asset
+f.uscpioer,CUSR0000SEHC,U.S. CPI Owners' equivalent rent of residences in U.S. city Average
+f.uscpirent,CUSR0000SEHA,U.S. CPI Rent of Primary Residences in U.S. City Average
+f.uslei,USALOLITONOSTSAM,Leading indicators CLI normalized for U.S.
+m.spxfper,df2577,sp-500-pe-ratio-price-to-earnings-chart
+m.spxfeps,tt1324,s-p-500-earnings-history

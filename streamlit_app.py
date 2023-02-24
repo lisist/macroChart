@@ -36,7 +36,7 @@ method_select = st.selectbox(
     "select",['none','yoy']
 )
 code = data_list.set_index(data_list['name']).loc[select]['list']
-data = pd.read_csv('./data/macro/'+str(code[1:])+'.csv',index_col='date')['actual']
+data = pd.read_csv('./data/macro/'+str(code)+'.csv',index_col='date')['actual']
 if method_select == 'yoy':
     data = data/data.shift(12)-1
 
@@ -52,7 +52,7 @@ method_select2 = st.selectbox(
 
 
 code2 = data_list.set_index(data_list['name']).loc[select2]['list']
-data2 = pd.read_csv('./data/macro/'+str(code2[1:])+'.csv',index_col='date')['actual']
+data2 = pd.read_csv('./data/macro/'+str(code2)+'.csv',index_col='date')['actual']
 data.index= pd.to_datetime(data.index)
 data2.index = pd.to_datetime(data2.index)
 if method_select2 == 'yoy':
@@ -68,7 +68,6 @@ if data.index[-1] > data2.index[-1]:
 else:
     end = data2.index[-1]
 
-st.write(int(start.timestamp()))
 start = dt.datetime.fromtimestamp(int(start.timestamp()))
 end = dt.datetime.fromtimestamp(int(end.timestamp()))
 
