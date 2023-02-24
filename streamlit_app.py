@@ -13,7 +13,7 @@ def plus_recession(ax):
 
     for i in recession.index:
         if dt.datetime.strptime(recession['Start'][i],"%Y-%m-%d") > start_date and dt.datetime.strptime(recession['End'][i],"%Y-%m-%d")< end_date:
-            ax.axvspan(recession['Start'][i],recession['End'][i],color="gray",alpha=0.5)
+            ax.axvspan(dt.datetime.strptime(recession['Start'][i],"%Y-%m-%d"),dt.datetime.strptime(recession['End'][i],"%Y-%m-%d"),color="gray",alpha=0.5)
 
 
 
