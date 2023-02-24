@@ -11,9 +11,12 @@ def plus_recession(ax):
     start_date = dt.datetime(x_date.year,x_date.month,x_date.day)
     end_date = dt.datetime(x2_date.year,x2_date.month,x2_date.day)
 
+    recession['Start'] = pd.to_datetime(recession['Start'])
+    recession['End'] = pd.to_datetime(recession['End'])
+    
     for i in recession.index:
-        if dt.datetime.strptime(recession['Start'][i],"%Y-%m-%d") > start_date and dt.datetime.strptime(recession['End'][i],"%Y-%m-%d")< end_date:
-            ax.axvspan(dt.datetime.strptime(recession['Start'][i],"%Y-%m-%d"),dt.datetime.strptime(recession['End'][i],"%Y-%m-%d"),color="gray",alpha=0.5)
+        if recession['Start'][i] > start_date and recession['End'][i] < end_date:
+            ax.axvspan(recession['Start'][i], recession['End'][i],color="gray",alpha=0.5)
 
 
 
